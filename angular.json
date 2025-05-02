@@ -5,11 +5,7 @@
   "projects": {
     "admin-app": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        }
-      },
+      "schematics": {},
       "root": "projects/admin-app",
       "sourceRoot": "projects/admin-app/src",
       "prefix": "app",
@@ -24,7 +20,6 @@
               "zone.js"
             ],
             "tsConfig": "projects/admin-app/tsconfig.app.json",
-            "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
@@ -32,7 +27,7 @@
               }
             ],
             "styles": [
-              "projects/admin-app/src/styles.scss"
+              "projects/admin-app/src/styles.css"
             ],
             "scripts": []
           },
@@ -83,7 +78,6 @@
               "zone.js/testing"
             ],
             "tsConfig": "projects/admin-app/tsconfig.spec.json",
-            "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
@@ -91,7 +85,7 @@
               }
             ],
             "styles": [
-              "projects/admin-app/src/styles.scss"
+              "projects/admin-app/src/styles.css"
             ],
             "scripts": []
           }
@@ -100,11 +94,7 @@
     },
     "user-app": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        }
-      },
+      "schematics": {},
       "root": "projects/user-app",
       "sourceRoot": "projects/user-app/src",
       "prefix": "app",
@@ -119,7 +109,6 @@
               "zone.js"
             ],
             "tsConfig": "projects/user-app/tsconfig.app.json",
-            "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
@@ -127,7 +116,7 @@
               }
             ],
             "styles": [
-              "projects/user-app/src/styles.scss"
+              "projects/user-app/src/styles.css"
             ],
             "scripts": []
           },
@@ -178,7 +167,6 @@
               "zone.js/testing"
             ],
             "tsConfig": "projects/user-app/tsconfig.spec.json",
-            "inlineStyleLanguage": "scss",
             "assets": [
               {
                 "glob": "**/*",
@@ -186,7 +174,7 @@
               }
             ],
             "styles": [
-              "projects/user-app/src/styles.scss"
+              "projects/user-app/src/styles.css"
             ],
             "scripts": []
           }
